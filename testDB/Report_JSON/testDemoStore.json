@@ -1,0 +1,251 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6237599202,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que estou na tela inicial do Demo Store",
+            "match": {
+              "location": "DemoStoreSteps.acessarPaginaHome()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2660767379,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestRule.beforeCenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "adicionar produtos ao carrinho de compras",
+        "description": "",
+        "id": "compras;adicionar-produtos-ao-carrinho-de-compras",
+        "after": [
+          {
+            "result": {
+              "duration": 922044797,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestRule.afterCenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45824529,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "meu carrinho esta vazio",
+            "match": {
+              "location": "DemoStoreSteps.verificarCarrinhoVazio()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2716446416,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "pesquiso um produto",
+            "match": {
+              "location": "DemoStoreSteps.informarProduto(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "produto"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Batman"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2592577884,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em um produto",
+            "match": {
+              "location": "DemoStoreSteps.clicarNoProduto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 150229473,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico em Adicionar ao Carrinho",
+            "match": {
+              "location": "DemoStoreSteps.clicarAdicionarAoCarrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 706552641,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico em Continuar Compras",
+            "match": {
+              "location": "DemoStoreSteps.clicarContinuarCompras()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1266762011,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "pesquiso um produto",
+            "match": {
+              "location": "DemoStoreSteps.informarProduto(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "produto"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "iPhone"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1533681094,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em um produto",
+            "match": {
+              "location": "DemoStoreSteps.clicarNoProduto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 186340504,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "aumento a quantidade do produto",
+            "match": {
+              "location": "DemoStoreSteps.aumentarQuantidade(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "quantidade"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "2"
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 188631887,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clico em Adicionar ao Carrinho",
+            "match": {
+              "location": "DemoStoreSteps.clicarAdicionarAoCarrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2130357139,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clico em Checkout",
+            "match": {
+              "location": "DemoStoreSteps.clicarCheckout()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 249770527,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "sistema exibe a pagina de checkout contendo todos meus produtos",
+            "match": {
+              "location": "DemoStoreSteps.exibirCarrinho()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@efetuarLogin"
+          }
+        ]
+      }
+    ],
+    "name": "compras",
+    "description": "",
+    "id": "compras",
+    "keyword": "Funcionalidade",
+    "uri": "src/main/java/Feature/DemoStore.feature"
+  }
+]
