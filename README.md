@@ -13,4 +13,4 @@ Projeto construído por Marlon Fontoura, como solução para o desafio de automa
 Trata-se de um projeto Maven, elaborado na IDE Eclipse, escrito em Java, utilizando Selenium WebDriver com integração ao Cucumber.
 
 ### Instruções:
-Para rodar o caso de teste automatizado, basta importar o mesmo no Eclipse, aguardar o build do projeto por parte do Maven e executar o método Main, localizado em: testDB > src/tst/java > com.test > Test.java
+Para rodar o caso de teste automatizado, basta importar o mesmo no Eclipse (File > Import... > Maven > Existing Maven Projects), aguardar o build do projeto por parte do Maven e executar o método Main, localizado em: testDB > src/tst/java > com.test > Test.java
